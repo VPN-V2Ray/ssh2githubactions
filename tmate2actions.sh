@@ -46,13 +46,14 @@ tmate -S ${TMATE_SOCK} wait tmate-ready
 TMATE_SSH=$(tmate -S ${TMATE_SOCK} display -p '#{tmate_ssh}')
 TMATE_WEB=$(tmate -S ${TMATE_SOCK} display -p '#{tmate_web}')
 MSG="
-* 😊 GitHub Actions - tmate session info:*
+* ✈️ GitHub Actions 😊 tmate session info:✈️ *
 
-✳️ *CLI:* \`${TMATE_SSH}\`
+✳️  *CLI:*   \`${TMATE_SSH}\`
 
-🌏 *URL:* ${TMATE_WEB}
+🌏  *URL:*   ${TMATE_WEB}
 
-🔔 *TIPS:* Run '\`touch ${CONTINUE_FILE}\`' to continue to the next step.
+🔔  *TIPS:*   Run '\`touch ${CONTINUE_FILE}\`' to continue to the next step.
+
 "
 
 if [[ -n "${TELEGRAM_BOT_TOKEN}" && -n "${TELEGRAM_CHAT_ID}" ]]; then
