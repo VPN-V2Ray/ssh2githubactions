@@ -47,7 +47,7 @@ TMATE_SSH=$(tmate -S ${TMATE_SOCK} display -p '#{tmate_ssh}')
 TMATE_WEB=$(tmate -S ${TMATE_SOCK} display -p '#{tmate_web}')
 MSG="
 * ✈️ GitHub Actions 😊 tmate session info:✈️ *
-✈️=======WRT======⏰ `date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"` ⏱===========✈️
+✈️=======VPN======⏰ `date --date='0 days ago' "+%Y-%m-%d %H:%M:%S"` ⏱===========✈️
 ✳️  *CLI:*   \`${TMATE_SSH}\`
 🌏  *URL:*   ${TMATE_WEB}  🍎
 🔔  *TIPS:*   Run '\`touch ${CONTINUE_FILE}\`' to continue to the next step.
