@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Copyright (c) 2020 Tony  
+# Copyright (c) 2020-2021 Tony  
 #
 # This is free software, licensed under the MIT License.
 # See /LICENSE for more information.
