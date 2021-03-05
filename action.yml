@@ -11,6 +11,9 @@ runs:
   steps: 
     - run: $GITHUB_ACTION_PATH/${{ inputs.mode }}2actions.sh
       shell: bash
+#branding:
+#  icon: 'terminal'
+#  color: 'gray-dark'
 branding:
   icon: 'terminal'
-  color: 'gray-dark'
+  color: 'green'
